@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clipstack"
+version = "1.0.0"
+description = "Turn YouTube gameplay into vertical Shorts/Reels/TikToks: face-cam on top, gameplay below, auto-captions."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+keywords = ["youtube", "shorts", "tiktok", "reels", "video", "ffmpeg", "whisper", "captions", "clipper", "yt-dlp"]
+dependencies = ["yt-dlp", "faster-whisper", "numpy", "pyyaml"]
+
+[project.scripts]
+clipstack = "clipstack.cli:main"
+
+[tool.setuptools]
+packages = ["clipstack"]
