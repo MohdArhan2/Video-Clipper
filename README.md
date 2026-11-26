@@ -11,6 +11,7 @@ Face-cam on top, gameplay below, word-by-word auto-captions. No video editor nee
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 </div>
+<img src="demo.gif" width="300" alt="Video Clipper demo">
 
 ## ✨ Features
 
